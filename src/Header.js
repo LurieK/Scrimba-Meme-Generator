@@ -6,9 +6,9 @@ export default function Header (){
    <section className="header">
         <div className="title">
             <img src={Troll}/>
-            <h1>Meme Generator</h1>
+            <h2>Meme Generator</h2>
         </div>
-        <h3 className="subtitle">React Course - Project 3</h3>
+        <h4 className="subtitle">React Course - Project 3</h4>
     </section>
 )
 }

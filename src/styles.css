@@ -28,12 +28,12 @@ body {
   margin-right: 5px;
 }
 
-.header .title h1 {
+.header .title h2 {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
 }
 
-.header h3{
+.header h4{
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
