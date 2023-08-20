@@ -5,7 +5,8 @@ export default function Meme (){
     function newMeme(){
         let memesArr= data.data.memes
         let randomIndex = Math.floor(Math.random()*memesArr.length)
-        console.log(randomIndex)
+        let randomImg= memesArr[randomIndex].url
+        console.log(randomImg)
     }
     return (
         <main className="input-form">
