@@ -1,10 +1,10 @@
 export default function Meme (){
 
     return (
-        <form>
-            <input type="text"></input>
-            <input type="text"></input>
-            <button type="submit"></button>
+        <form className="input-form">
+            <input className="input1" type="text"></input>
+            <input className="input2" type="text"></input>
+            <button className="submit-btn" type="submit"></button>
         </form>
 
     )

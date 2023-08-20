@@ -40,3 +40,17 @@ body {
   font-size: 14px;
   margin: 25px 37px 25px auto;
 }
+input1 {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  width:230px;
+  height: 35px;
+
+}
+
+input2 {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  width:230px;
+  height: 35px;
+}
