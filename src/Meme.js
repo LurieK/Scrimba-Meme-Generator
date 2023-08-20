@@ -1,9 +1,11 @@
 import data from "./data.js"
 
 export default function Meme (){
-    let memesArr= data.data.memes
+    
     function newMeme(){
-        console.log(memesArr)
+        let memesArr= data.data.memes
+        let randomIndex = Math.floor(Math.random()*memesArr.length)
+        console.log(randomIndex)
     }
     return (
         <main className="input-form">
