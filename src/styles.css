@@ -25,6 +25,7 @@ body {
 .title img{
   width: 31px;
   height: 26px;
+  margin-right: 5px;
 }
 
 .header .title h1 {
