@@ -15,7 +15,10 @@ body {
   flex-flow: row;
 }
 
-
+.title{
+  display: flex;
+  flex-flow: row;
+}
 
 h1 {
   font-family: 'Karla', sans-serif;
