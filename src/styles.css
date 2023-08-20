@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-flow: row;
   align-items: center;
+  margin: 19px auto 19px 20px ;
 }
 
 .title img{
@@ -35,4 +36,5 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
+  margin: 25px 37px 25px auto;
 }
