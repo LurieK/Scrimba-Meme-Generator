@@ -18,6 +18,12 @@ body {
 .title{
   display: flex;
   flex-flow: row;
+  align-items: center;
+}
+
+.title img{
+  width: 31px;
+  height: 26px;
 }
 
 h1 {
