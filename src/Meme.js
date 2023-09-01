@@ -11,15 +11,15 @@ export default function Meme (){
 
     const [allMemeImg, setAllMemeImg]= React.useState({})
     
-    React.useEffect(function(){
+    React.useEffect(()=>{
         console.log("effect ran")
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
-            .then(meme => setAllMemeImg(meme.data))
+            .then(meme => setAllMemeImg(meme.data.memes))
     }, [])
 
     function newMeme(){
-        let memesArr= allMemeImg.memes
+        let memesArr= allMemeImg
         let randomIndex = Math.floor(Math.random()*memesArr.length)
         let randomImg= memesArr[randomIndex].url
 
@@ -39,7 +39,7 @@ export default function Meme (){
                 [name]: value
             }
         })
-        console.log(meme)
+        
     }
 
     
@@ -67,11 +67,11 @@ export default function Meme (){
                 
                 />
             </div>
-            <button 
             
-            onClick={newMeme}
-            className="submit-btn" 
-            type="submit"
+            <button 
+                onClick={newMeme}
+                className="submit-btn" 
+                type="submit"
             >Get a new meme image  🖼</button>
 
             <div className="meme">
