@@ -19,9 +19,8 @@ export default function Meme (){
     }, [])
 
     function newMeme(){
-        let memesArr= allMemeImg
-        let randomIndex = Math.floor(Math.random()*memesArr.length)
-        let randomImg= memesArr[randomIndex].url
+        let randomIndex = Math.floor(Math.random()*allMemeImg.length)
+        let randomImg= allMemeImg[randomIndex].url
 
         setMeme(prevMeme=> {
             return {
